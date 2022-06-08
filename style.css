@@ -1,6 +1,11 @@
 body{
   background-color:ffa500;
 }
+
 h1{
   color:ffe5b4;
+}
+
+button{
+  font-size: 50%;
 }
