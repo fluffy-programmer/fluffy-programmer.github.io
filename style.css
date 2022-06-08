@@ -1,14 +1,16 @@
 body{
-  background-color:ffa500;
+  background-color:ffdb8b;
 }
 
 h1{
-  color:ffe5b4;
+  color:fff7e0;
   font-size: 23;
 }
 
 button{
-  font-size: 15;
-  border-radius: 5px;
+  font-size: 20;
+  border-radius: 4px;
+  background-color:fff7e0;
+  border: none;
 
 }
