@@ -4,6 +4,12 @@
     <title>Магазин одежды</title>
   </head>
   <body>
+    <script>
+      function shop()
+      {
+        document.write
+      }
+    </script>
     <h1>Магазин одежды KREYT</h1>
     <button>Магазин</button>
     <button>Аксессуары</button>
@@ -12,18 +18,26 @@
       <td>
         <img src="image.png" width="100" height="100">
         <figcaption>Одежда</figcaption>
-        <button class="by">Купить</button>
+        <button class="by" onclick="shop()">Купить</button>
       </td>
       <td>
         <img src="image.png" width="100" height="100">
         <figcaption>Одежда</figcaption>
-        <button class=by>Купить</button>
+        <button class="by" onclick="shop()">Купить</button>
       </td>
       <td>
         <img src="image.png" width="100" height="100">
         <figcaption>Одежда</figcaption>
-        <button class="by">Купить</button>
+        <button class="by" onclick="shop()">Купить</button>
       </td>
     </table>
+    <div><p id="secret"></p></div>
+    <script>
+      function shop()
+      {
+        p = document.getElementById('secret');
+        p.innerHTML += "<center><p>Цена:</p>"; 
+      }
+    </script>
   </body>
 
